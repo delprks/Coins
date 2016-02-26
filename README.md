@@ -1,1 +1,1 @@
-Scala app to convert pounds/pennies into number of coins
+Scala app to convert pences into number of coins
