@@ -12,7 +12,8 @@ object CoinFactory {
 
       while(mPences >= coin._2) {
         mPences = mPences - coin._2
-        coinMap(coin._1) = numOfCoins + 1
+        numOfCoins = numOfCoins + 1
+        coinMap(coin._1) = numOfCoins
       }
     })
 
